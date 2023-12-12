@@ -8,11 +8,11 @@ public class Tarea_Entornos {
 	public static void main(String[] args) {
 		int lado1=0;
 		int lado2=0;
-		double resultado = calcularArea(lado1,lado2);
-		System.out.println("El área es: "+resultado);
+		double triangulo = areaTriangulo(lado1,lado2);
+		System.out.println("El área es: "+triangulo);
 
 	}
-	public static double calcularArea (int lado1, int lado2) {
+	public static double areaTriangulo (int lado1, int lado2) {
 		System.out.println("introduzca el primer lado");
 		lado1=entrada.nextInt();
 		System.out.println("introduzca el segundo lado");
